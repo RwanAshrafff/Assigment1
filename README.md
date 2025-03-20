@@ -46,3 +46,67 @@ This project demonstrates data processing and analysis using **Docker and Python
 ```bash
 git clone https://github.com/RwanAshrafff/Assigment1.git
 cd Assigment1
+```
+
+### *2. Build and Run the Docker Container*  
+```bash
+docker build -t bigdata-assignment .
+docker run -it bigdata-assignment
+```
+
+### *3. Load and Process the Dataset*  
+```bash
+python3 load.py disease.csv
+```
+
+### *4. Log in to Docker Hub*  
+```bash
+docker login
+```
+
+### *5. Manage Docker Images and Push to Docker Hub*  
+```bash
+docker images
+docker tag 195dd029bd97 nirvananader12/bd-a2:latest
+docker push nirvananader12/bd-a2:latest
+```
+
+---
+
+## *Usage*  
+1. Run the Docker container.
+2. Load the dataset using `python3 load.py disease.csv`.
+3. Perform exploratory data analysis.
+4. Generate visualizations.
+5. Apply K-means clustering for data grouping.
+
+---
+
+## *Screenshots*  
+(Add relevant screenshots showcasing steps such as data loading, analysis, and clustering results.)
+
+---
+
+## *Docker Commands*  
+- `docker build -t bd-a2` → Build Docker image.
+- `docker run -it bd-a2` → Run the container.
+- `nano load.py` → write our code.
+- `nano dpre.py` → write our code.
+- `nano eda.py` → write our code.
+- `nano vis.py` → write our code.
+- `nano model.py` → write our code.
+- `python3 load.py disease.csv` → run.
+- `docker login` → Log in to Docker Hub.
+- `docker images` → List available Docker images.
+- `docker tag <image_id> <repo>:latest` → Tag an image for pushing.
+- `docker push <repo>:latest` → Push the image to Docker Hub.
+
+---
+
+## *Contributing*  
+Feel free to contribute by submitting issues or pull requests.
+
+---
+
+## *License*  
+This project is licensed under the MIT License.
