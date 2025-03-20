@@ -82,8 +82,33 @@ docker push nirvananader12/bd-a2:latest
 
 ---
 
-## *Screenshots*  
-(Add relevant screenshots showcasing steps such as data loading, analysis, and clustering results.)
+### 1. Screenshot 1
+![Screenshot 1](Screenshot%202025-03-20%20043312.png)
+
+### 2. Screenshot 2
+![Screenshot 2](Screenshot%202025-03-20%20043531.png)
+
+### 3. Screenshot 3
+![Screenshot 3](Screenshot%202025-03-20%20050106.png)
+
+### 4. Screenshot 4
+![Screenshot 4](Screenshot%202025-03-20%20050124.png)
+
+### 5. Screenshot 5
+![Screenshot 5](Screenshot%202025-03-20%20050151.png)
+
+### 6. Screenshot 6
+![Screenshot 6](Screenshot%202025-03-20%20050202.png)
+
+### 7. Screenshot 7
+![Screenshot 7](Screenshot%202025-03-20%20050210.png)
+
+### 8. Screenshot 8
+![Screenshot 8](Screenshot%202025-03-20%20130214.png)
+
+### 9. Screenshot 9
+![Screenshot 9](Screenshot%202025-03-20%20130241.png)
+
 
 ---
 
